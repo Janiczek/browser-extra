@@ -12,9 +12,9 @@ import Json.Decode as Decode exposing (Decoder)
 import Json.Decode.Extra as Decode
 
 
-{-| Parse the Viewport from eg. a `scroll` event.
+{-| Parse the [`Viewport`](https://package.elm-lang.org/packages/elm/browser/latest/Browser-Dom#Viewport) from eg. a `scroll` event.
 
-This is an Elm-only version of what [Browser.Dom.getViewportOf](https://package.elm-lang.org/packages/elm/browser/latest/Browser-Dom#getViewportOf) does.
+This is an Elm-only version of what [`Browser.Dom.getViewportOf`](https://package.elm-lang.org/packages/elm/browser/latest/Browser-Dom#getViewportOf) does.
 
 -}
 viewportDecoder : Decoder Viewport

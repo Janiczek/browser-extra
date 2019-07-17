@@ -3,7 +3,7 @@
     "name": "Janiczek/browser-extra",
     "summary": "Extra functions for elm/browser",
     "license": "BSD-3-Clause",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "exposed-modules": [
         "Browser.Extra"
     ],
@@ -15,5 +15,7 @@
         "elm/json": "1.1.3 <= v < 2.0.0",
         "elm-community/json-extra": "4.0.0 <= v < 5.0.0"
     },
-    "test-dependencies": {}
+    "test-dependencies": {
+        "elm-explorations/test": "1.2.2 <= v < 2.0.0"
+    }
 }
